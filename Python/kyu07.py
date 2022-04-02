@@ -1,4 +1,12 @@
 """
+Binary Addition
+https://www.codewars.com/kata/551f37452ff852b7bd000139
+"""
+def add_binary(a,b):
+    s = str(bin(a + b))
+    return s[2:]
+
+"""
 Categorize New Member
 https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa
 """
