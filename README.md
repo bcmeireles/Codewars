@@ -13,8 +13,8 @@ Click [here](https://www.codewars.com/users/dvnt) to check out my profile
  - Kyu 4 count: 1
 	 - [Human readable duration format](https://www.codewars.com/kata/52742f58faf5485cae000b9a) | [Solution](https://github.com/meirelesbc/Codewars/blob/89927ec3e29028f59f342f0a528cbe5d6caa9b58/Python/kyu04.py#L1)
  - Kyu 5 count: 2
-	 - [Calculating with Functions](https://www.codewars.com/kata/525f3eda17c7cd9f9e000b39)
-	 - [Where my anagrams at?](https://www.codewars.com/kata/523a86aa4230ebb5420001e1)
+	 - [Calculating with Functions](https://www.codewars.com/kata/525f3eda17c7cd9f9e000b39) | [Solution](https://github.com/meirelesbc/Codewars/blob/b77ab83430f2956144fc3cff68de337bc3787ba8/Python/kyu05.py#L1)
+	 - [Where my anagrams at?](https://www.codewars.com/kata/523a86aa4230ebb5420001e1) | [Solution](https://github.com/meirelesbc/Codewars/blob/b77ab83430f2956144fc3cff68de337bc3787ba8/Python/kyu05.py#L21)
  - Kyu 6 count: 8
  	 - [Create Phone Number](https://www.codewars.com/kata/525f50e3b73515a6db000b83)
 	 - [Multiples of 3 or 5](https://www.codewars.com/kata/514b92a657cdc65150000006)
