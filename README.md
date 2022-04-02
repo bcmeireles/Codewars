@@ -3,6 +3,7 @@
 
 ### Username: dvnt
 Click [here](https://www.codewars.com/users/dvnt) to check out my profile
+![](https://www.codewars.com/users/dvnt/badges/large)
 
 ## Python
 ### Total Completed Kata: 15
