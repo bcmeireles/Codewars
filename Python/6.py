@@ -41,3 +41,17 @@ def likes(names):
         return f"{names[0]}, {names[1]} and {names[2]} like this"
     else:
         return f"{names[0]}, {names[1]} and {len(names) - 2} others like this"
+    
+"""
+Simple Fun #354: Lonely Frog III
+https://www.codewars.com/kata/59c9e82ea25c8c05860001aa/train/python
+"""
+def jump_to(x, y):
+    moves = 0
+    while x != y:
+        if (y / 2 >= x) and (y % 2 == 0):
+            y = y / 2
+        else:
+            y -= 1
+        moves += 1
+    return moves
