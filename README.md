@@ -4,6 +4,7 @@
 ### Username: dvnt
 Click [here](https://www.codewars.com/users/dvnt) to check out my profile
 
+## Python
 ### Total Completed Kata: 15
 
  - Kyu 1 count: 0
