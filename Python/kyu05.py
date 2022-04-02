@@ -17,3 +17,14 @@ def plus(a): return lambda b: a + b
 def minus(a): return lambda b: b - a
 def times(a): return lambda b: a * b
 def divided_by(a): return lambda b: b // a
+
+"""
+Where my anagrams at?
+https://www.codewars.com/kata/523a86aa4230ebb5420001e1
+"""
+def anagrams(word, words):
+    anagrams = []
+    for w in words:
+        if sorted(w) == sorted(word):
+            anagrams.append(w)
+    return anagrams
