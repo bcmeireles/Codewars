@@ -7,7 +7,7 @@ Click [here](https://www.codewars.com/users/dvnt) to check out my profile
 ![](https://www.codewars.com/users/dvnt/badges/large)
 
 ## Python
-### Total Completed Kata: 15
+### Total Completed Kata: 16
 
  - Kyu 1 count: 0
  - Kyu 2 count: 0
@@ -17,7 +17,7 @@ Click [here](https://www.codewars.com/users/dvnt) to check out my profile
  - Kyu 5 count: 2
 	 - [Calculating with Functions](https://www.codewars.com/kata/525f3eda17c7cd9f9e000b39) | [Solution](https://github.com/meirelesbc/Codewars/blob/b77ab83430f2956144fc3cff68de337bc3787ba8/Python/kyu05.py#L1)
 	 - [Where my anagrams at?](https://www.codewars.com/kata/523a86aa4230ebb5420001e1) | [Solution](https://github.com/meirelesbc/Codewars/blob/b77ab83430f2956144fc3cff68de337bc3787ba8/Python/kyu05.py#L21)
- - Kyu 6 count: 8
+ - Kyu 6 count: 9
  	 - [Create Phone Number](https://www.codewars.com/kata/525f50e3b73515a6db000b83) | [Solution](https://github.com/meirelesbc/Codewars/blob/951cc99e04d01042bb102938ef78e64ed321a524/Python/kyu06.py#L1)
 	 - [Multiples of 3 or 5](https://www.codewars.com/kata/514b92a657cdc65150000006) | [Solution](https://github.com/meirelesbc/Codewars/blob/951cc99e04d01042bb102938ef78e64ed321a524/Python/kyu06.py#L10)
 	 - [Array.diff](https://www.codewars.com/kata/523f5d21c841566fde000009) | [Solution](https://github.com/meirelesbc/Codewars/blob/951cc99e04d01042bb102938ef78e64ed321a524/Python/kyu06.py#L25)
@@ -26,6 +26,7 @@ Click [here](https://www.codewars.com/users/dvnt) to check out my profile
 	 - [Find the unique number](https://www.codewars.com/kata/585d7d5adb20cf33cb000235) | [Solution](https://github.com/meirelesbc/Codewars/blob/951cc99e04d01042bb102938ef78e64ed321a524/Python/kyu06.py#L67)
 	 - [Break camelCase](https://www.codewars.com/kata/5208f99aee097e6552000148) | [Solution](https://github.com/meirelesbc/Codewars/blob/951cc99e04d01042bb102938ef78e64ed321a524/Python/kyu06.py#L83)
 	 - [Simple Fun #354: Lonely Frog III](https://www.codewars.com/kata/59c9e82ea25c8c05860001aa) | [Solution](https://github.com/meirelesbc/Codewars/blob/951cc99e04d01042bb102938ef78e64ed321a524/Python/kyu06.py#L98)
+	 - [Highest Scoring Word](https://www.codewars.com/kata/57eb8fcdf670e99d9b000272) | [Solution](https://github.com/meirelesbc/Codewars/blob/951cc99e04d01042bb102938ef78e64ed321a524/Python/kyu06.py#L112)
  - Kyu 7 count: 3
 	 - [Binary Addition](https://www.codewars.com/kata/551f37452ff852b7bd000139) | [Solution](https://github.com/meirelesbc/Codewars/blob/2095d0817eba2d95639de02742a83987e1efd5fb/Python/kyu07.py#L1)
 	 - [Categorize New Member](https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa) | [Solution](https://github.com/meirelesbc/Codewars/blob/2095d0817eba2d95639de02742a83987e1efd5fb/Python/kyu07.py#L9)
@@ -34,5 +35,3 @@ Click [here](https://www.codewars.com/users/dvnt) to check out my profile
 	 - [Multiply](https://www.codewars.com/kata/50654ddff44f800200000004) | [Solution](https://github.com/meirelesbc/Codewars/blob/2095d0817eba2d95639de02742a83987e1efd5fb/Python/kyu08.py#L1)
  - Kyu 9 count: 0
  - Kyu 10 count: 0
-
-

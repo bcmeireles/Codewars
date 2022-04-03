@@ -108,3 +108,20 @@ def jump_to(x, y):
             y -= 1
         moves += 1
     return moves
+
+"""
+Highest Scoring Word
+https://www.codewars.com/kata/57eb8fcdf670e99d9b000272
+"""
+def high(x):
+    word_list = x.split(" ")
+    max_score = 0
+    for i in range(len(word_list)):
+        word_score = 0
+        for letter in word_list[i]:
+            word_score += (ord(letter) - 96)
+        
+        if word_score > max_score:
+            max_score = word_score
+            max_word = word_list[i]
+    return max_word
