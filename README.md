@@ -26,7 +26,7 @@ Click [here](https://www.codewars.com/users/dvnt) to check out my profile
 	 - [Find the unique number](https://www.codewars.com/kata/585d7d5adb20cf33cb000235) | [Solution](https://github.com/meirelesbc/Codewars/blob/951cc99e04d01042bb102938ef78e64ed321a524/Python/kyu06.py#L67)
 	 - [Break camelCase](https://www.codewars.com/kata/5208f99aee097e6552000148) | [Solution](https://github.com/meirelesbc/Codewars/blob/951cc99e04d01042bb102938ef78e64ed321a524/Python/kyu06.py#L83)
 	 - [Simple Fun #354: Lonely Frog III](https://www.codewars.com/kata/59c9e82ea25c8c05860001aa) | [Solution](https://github.com/meirelesbc/Codewars/blob/951cc99e04d01042bb102938ef78e64ed321a524/Python/kyu06.py#L98)
-	 - [Highest Scoring Word](https://www.codewars.com/kata/57eb8fcdf670e99d9b000272) | [Solution](https://github.com/meirelesbc/Codewars/blob/951cc99e04d01042bb102938ef78e64ed321a524/Python/kyu06.py#L112)
+	 - [Highest Scoring Word](https://www.codewars.com/kata/57eb8fcdf670e99d9b000272) | [Solution](https://github.com/dvntx/Codewars/blob/1fb2ce09fe5bf294f9680104bb6bebe1e3f718f8/Python/kyu06.py#L112)
  - Kyu 7 count: 3
 	 - [Binary Addition](https://www.codewars.com/kata/551f37452ff852b7bd000139) | [Solution](https://github.com/meirelesbc/Codewars/blob/2095d0817eba2d95639de02742a83987e1efd5fb/Python/kyu07.py#L1)
 	 - [Categorize New Member](https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa) | [Solution](https://github.com/meirelesbc/Codewars/blob/2095d0817eba2d95639de02742a83987e1efd5fb/Python/kyu07.py#L9)
