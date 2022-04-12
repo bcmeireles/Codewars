@@ -69,3 +69,45 @@ def done_or_not(board):
             return "Try again!"
         
     return "Finished!"
+
+"""
+The Hashtag Generator
+https://www.codewars.com/kata/52449b062fb80683ec000024
+"""
+def generate_hashtag(s):
+    if s == "":
+        return False
+    
+    words = [word.capitalize() for word in s.split()]
+    a = "".join(words)
+    if len(a) > 139:
+        return False
+    return "#" + a
+
+"""
+Tic-Tac-Toe Checker
+https://www.codewars.com/kata/525caa5c1bf619d28c000335
+"""
+def is_solved(board):
+    for row in board:
+        if row == [1,1,1]:
+            return 1
+        elif row == [2,2,2]:
+            return 2
+        
+    for i in range(0,3):
+        col = []
+        for j in range(0,3):
+            col.append(board[j][i])
+        if col == [1,1,1]:
+            return 1
+        elif col == [2,2,2]:
+            return 2
+        
+    if (board[1][1] != 0) and ((board[0][0] == board[1][1] == board[2][2]) or (board[0][2] == board[1][1] == board[2][0])):
+        return board[1][1]
+    
+    for row in board:
+        if 0 in row:
+            return -1
+    return 0
