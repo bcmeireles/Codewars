@@ -28,3 +28,44 @@ def anagrams(word, words):
         if sorted(w) == sorted(word):
             anagrams.append(w)
     return anagrams
+
+"""
+Did I Finish my Sudoku?
+https://www.codewars.com/kata/53db96041f1a7d32dc0004d2
+"""
+def done_or_not(board):
+    for row in board:
+        if sorted(row) != [1,2,3,4,5,6,7,8,9]:
+            return "Try again!"
+
+        
+    for i in range(0,9):
+        col = []
+        for row in board:
+            col.append(row[i])
+        if sorted(col) != [1,2,3,4,5,6,7,8,9]:
+            return "Try again!"
+        
+    blocks = {1: (0,0), 2: (3,0), 3: (6,0),
+             4: (0,3), 5: (3,3), 6: (6,3), 
+             7: (0,6), 8: (3,6), 9: (6,6)}
+    
+    def check_block(block):
+        coord1 = block[0]
+        coord2 = block[1]
+
+        zone = []
+        for i in range(coord1, coord1 + 3):
+            for j in range(coord2, coord2 + 3):
+                zone.append(board[j][i])
+               
+        if sorted(zone) != [1,2,3,4,5,6,7,8,9]:
+            return 0
+        else:
+            return 1
+
+    for block in blocks:
+        if check_block(blocks[block]) == 0:
+            return "Try again!"
+        
+    return "Finished!"
