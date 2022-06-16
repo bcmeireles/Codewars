@@ -6,7 +6,7 @@ Click [here](https://www.codewars.com/users/dvnt) to check out my profile
 ![](https://www.codewars.com/users/dvnt/badges/large)
 
 ## Stats
-### Total Kata Completed: 21
+### Total Kata Completed: 27
 
 <br>
 
@@ -33,7 +33,10 @@ Click [here](https://www.codewars.com/users/dvnt) to check out my profile
 ](Python/5%20kyu.md#where-my-anagrams-at
 )
 	- [Calculating with Functions](Python/5%20kyu.md#calculating-with-functions)
-- Kyu 6 count: 9
+- Kyu 6 count: 10
+	- [Bit Counting
+](Python/6%20kyu.md#bit-counting
+)
 	- [Highest Scoring Word
 ](Python/6%20kyu.md#highest-scoring-word
 )
@@ -59,7 +62,16 @@ Click [here](https://www.codewars.com/users/dvnt) to check out my profile
 ](Python/6%20kyu.md#multiples-of-3-or-5
 )
 	- [Create Phone Number](Python/6%20kyu.md#create-phone-number)
-- Kyu 7 count: 3
+- Kyu 7 count: 6
+	- [Growth of a Population
+](Python/7%20kyu.md#growth-of-a-population
+)
+	- [Sum of odd numbers
+](Python/7%20kyu.md#sum-of-odd-numbers
+)
+	- [Isograms
+](Python/7%20kyu.md#isograms
+)
 	- [Complementary DNA
 ](Python/7%20kyu.md#complementary-dna
 )
@@ -67,7 +79,13 @@ Click [here](https://www.codewars.com/users/dvnt) to check out my profile
 ](Python/7%20kyu.md#categorize-new-member
 )
 	- [Binary Addition](Python/7%20kyu.md#binary-addition)
-- Kyu 8 count: 2
+- Kyu 8 count: 4
+	- [Counting sheep...
+](Python/8%20kyu.md#counting-sheep
+)
+	- [Is n divisible by x and y?
+](Python/8%20kyu.md#is-n-divisible-by-x-and-y
+)
 	- [Multiply
 ](Python/8%20kyu.md#multiply
 )

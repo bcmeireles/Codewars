@@ -1,3 +1,149 @@
+# [Counting sheep...](https://www.codewars.com/kata/54edbc7200b811e956000556)
+by [tfKamran](https://www.codewars.com/users/tfKamran)
+## Description
+Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
+
+For example,
+
+```javascript
+[true,  true,  true,  false,
+  true,  true,  true,  true ,
+  true,  false, true,  false,
+  true,  false, false, true ,
+  true,  true,  true,  true ,
+  false, false, true,  true]
+```
+```crystal
+[true,  true,  true,  false,
+  true,  true,  true,  true ,
+  true,  false, true,  false,
+  true,  false, false, true ,
+  true,  true,  true,  true ,
+  false, false, true,  true]
+```
+```python
+[True,  True,  True,  False,
+  True,  True,  True,  True ,
+  True,  False, True,  False,
+  True,  False, False, True ,
+  True,  True,  True,  True ,
+  False, False, True,  True]
+```
+```csharp
+[true,  true,  true,  false,
+  true,  true,  true,  true ,
+  true,  false, true,  false,
+  true,  false, false, true ,
+  true,  true,  true,  true ,
+  false, false, true,  true]
+```
+```c
+{ true,  true,  true,  false,
+  true,  true,  true,  true,
+  true,  false, true,  false,
+  true,  false, false, true,
+  true,  true,  true,  true,
+  false, false, true,  true }
+```
+```cpp
+[true,  true,  true,  false,
+  true,  true,  true,  true ,
+  true,  false, true,  false,
+  true,  false, false, true ,
+  true,  true,  true,  true ,
+  false, false, true,  true]
+```
+```haskell
+[True,  True,  True,  False,
+  True,  True,  True,  True ,
+  True,  False, True,  False,
+  True,  False, False, True ,
+  True,  True,  True,  True ,
+  False, False, True,  True]
+```
+```elixir
+[true,  true,  true,  false,
+  true,  true,  true,  true ,
+  true,  false, true,  false,
+  true,  false, false, true ,
+  true,  true,  true,  true ,
+  false, false, true,  true]
+```
+```rust
+&[true,  true,  true,  false,
+  true,  true,  true,  true ,
+  true,  false, true,  false,
+  true,  false, false, true ,
+  true,  true,  true,  true ,
+  false, false, true,  true]
+```
+```scala
+Array(
+  true,  true,  true,  false,
+  true,  true,  true,  true,
+  true,  false, true,  false,
+  true,  false, false, true,
+  true,  true,  true,  true,
+  false, false, true,  true
+)
+```
+```racket
+;for racket in this kata, 
+;only values that are exactly #t count as sheep. 
+;any other value is not a sheep.
+(count-sheeps '(#t #t #t #f #t #t 1
+                #t #f #f #f #f #f #f
+                #t #f #t #t #t #t #t
+                #t #t #f #t #t #t 5))
+```
+```factor
+{ t t t f
+  t t t t
+  t f t f
+  t f f t
+  t t t t
+  f f t t }
+```
+
+
+The correct answer would be `17`.
+
+Hint: Don't forget to check for bad values like `null`/`undefined`
+
+## Solution:
+```python
+def count_sheeps(sheep):
+    i = 0
+    for x in sheep:
+        if x:
+            i += 1
+    return i
+```
+###
+Tags: `Arrays` `Fundamentals`
+<br>
+# [Is n divisible by x and y?](https://www.codewars.com/kata/5545f109004975ea66000086)
+by [naaz](https://www.codewars.com/users/naaz)
+## Description
+Create a function that checks if a number `n` is divisible by two numbers `x` **AND** `y`. All inputs are positive, non-zero digits.
+
+```JS
+Examples:
+1) n =   3, x = 1, y = 3 =>  true because   3 is divisible by 1 and 3
+2) n =  12, x = 2, y = 6 =>  true because  12 is divisible by 2 and 6
+3) n = 100, x = 5, y = 3 => false because 100 is not divisible by 3
+4) n =  12, x = 7, y = 5 => false because  12 is neither divisible by 7 nor 5
+```
+## Solution:
+```python
+def is_divisible(n,x,y):
+    if n % x == 0 and n % y == 0:
+        return True
+    return False
+```
+###
+Tags: `Refactoring`
+<br>
 # [Multiply](https://www.codewars.com/kata/50654ddff44f800200000004)
 by [Unknown](https://www.codewars.com/users/Unknown)
 ## Description
@@ -40,5 +186,5 @@ def string_clean(s):
     return f
 ```
 ###
-Tags: `Fundamentals` `Regular Expressions` `Declarative Programming` `Advanced Language Features` `Programming Paradigms` `Strings`
+Tags: `Regular Expressions` `Fundamentals`
 <br>

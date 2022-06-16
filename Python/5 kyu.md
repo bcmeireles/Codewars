@@ -46,7 +46,7 @@ def is_solved(board):
     return 0
 ```
 ###
-Tags: `Algorithms` `Arrays` `Data Types`
+Tags: `Arrays` `Algorithms`
 <br>
 # [The Hashtag Generator](https://www.codewars.com/kata/52449b062fb80683ec000024)
 by [AKJ.IO](https://www.codewars.com/users/AKJ.IO)
@@ -83,7 +83,7 @@ def generate_hashtag(s):
     
 ```
 ###
-Tags: `Algorithms` `Strings` `Data Types`
+Tags: `Strings` `Algorithms`
 <br>
 # [Did I Finish my Sudoku?](https://www.codewars.com/kata/53db96041f1a7d32dc0004d2)
 by [suuuzi](https://www.codewars.com/users/suuuzi)
@@ -165,7 +165,7 @@ def done_or_not(board):
     return "Finished!"
 ```
 ###
-Tags: `Puzzles` `Lists` `Data Structures` `Loops` `Control Flow` `Basic Language Features` `Fundamentals` `Mathematics` `Algorithms` `Logic` `Numbers`
+Tags: `Lists` `Data Structures` `Mathematics` `Puzzles`
 <br>
 # [Where my anagrams at?](https://www.codewars.com/kata/523a86aa4230ebb5420001e1)
 by [sandbochs](https://www.codewars.com/users/sandbochs)
@@ -206,7 +206,7 @@ def anagrams(word, words):
     return anagrams
 ```
 ###
-Tags: `Algorithms` `Strings` `Data Types`
+Tags: `Strings` `Algorithms`
 <br>
 # [Calculating with Functions](https://www.codewars.com/kata/525f3eda17c7cd9f9e000b39)
 by [BattleRattle](https://www.codewars.com/users/BattleRattle)
@@ -301,5 +301,5 @@ def times(a): return lambda b: a * b
 def divided_by(a): return lambda b: b // a
 ```
 ###
-Tags: `Fundamentals` `Functions` `Control Flow` `Basic Language Features` `Functional Programming` `Declarative Programming` `Programming Paradigms` `Higher-order Functions`
+Tags: `Functional Programming`
 <br>

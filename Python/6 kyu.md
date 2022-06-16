@@ -1,3 +1,18 @@
+# [Bit Counting](https://www.codewars.com/kata/526571aae218b8ee490006f4)
+by [xcthulhu](https://www.codewars.com/users/xcthulhu)
+## Description
+Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.
+
+*Example*: The binary representation of `1234` is `10011010010`, so the function should return `5` in this case
+
+## Solution:
+```python
+def count_bits(n):
+    return bin(n).count("1")
+```
+###
+Tags: `Bits` `Algorithms`
+<br>
 # [Highest Scoring Word](https://www.codewars.com/kata/57eb8fcdf670e99d9b000272)
 by [PG1](https://www.codewars.com/users/PG1)
 ## Description
@@ -26,7 +41,7 @@ def high(x):
     return max_word
 ```
 ###
-Tags: `Fundamentals` `Strings` `Data Types` `Arrays` `Numbers`
+Tags: `Fundamentals` `Strings` `Arrays`
 <br>
 # [Simple Fun #354: Lonely Frog III](https://www.codewars.com/kata/59c9e82ea25c8c05860001aa)
 by [myjinxin2015](https://www.codewars.com/users/myjinxin2015)
@@ -109,7 +124,7 @@ def jump_to(x, y):
     return moves
 ```
 ###
-Tags: `Algorithms` `Logic`
+Tags: `Algorithms`
 <br>
 # [Break camelCase](https://www.codewars.com/kata/5208f99aee097e6552000148)
 by [hakt](https://www.codewars.com/users/hakt)
@@ -137,7 +152,7 @@ def solution(s):
     return final
 ```
 ###
-Tags: `Fundamentals` `Strings` `Data Types` `Formatting` `Algorithms` `Logic`
+Tags: `Strings` `Formatting` `Fundamentals`
 <br>
 # [Find the unique number](https://www.codewars.com/kata/585d7d5adb20cf33cb000235)
 by [isqua](https://www.codewars.com/users/isqua)
@@ -204,7 +219,7 @@ def find_uniq(arr):
             return first
 ```
 ###
-Tags: `Fundamentals` `Algorithms` `Logic` `Numbers` `Data Types` `Arrays`
+Tags: `Fundamentals` `Algorithms` `Arrays`
 <br>
 # [Sum of Digits / Digital Root](https://www.codewars.com/kata/541c8630095125aba6000c00)
 by [user578387](https://www.codewars.com/users/user578387)
@@ -234,7 +249,7 @@ def digital_root(n):
         return digital_root(sum)
 ```
 ###
-Tags: `Algorithms` `Mathematics` `Logic` `Numbers` `Arithmetic`
+Tags: `Mathematics` `Algorithms`
 <br>
 # [Who likes it?](https://www.codewars.com/kata/5266876b8f4bf2da9b000362)
 by [BattleRattle](https://www.codewars.com/users/BattleRattle)
@@ -274,7 +289,7 @@ def likes(names):
         return f"{names[0]}, {names[1]} and {len(names) - 2} others like this"
 ```
 ###
-Tags: `Fundamentals` `Formatting` `Algorithms` `Logic` `Strings` `Data Types`
+Tags: `Formatting` `Strings` `Fundamentals`
 <br>
 # [Array.diff](https://www.codewars.com/kata/523f5d21c841566fde000009)
 by [marcinbunsch](https://www.codewars.com/users/marcinbunsch)
@@ -416,7 +431,7 @@ def array_diff(a, b):
     return c
 ```
 ###
-Tags: `Fundamentals` `Arrays` `Data Types`
+Tags: `Arrays` `Fundamentals`
 <br>
 # [Multiples of 3 or 5](https://www.codewars.com/kata/514b92a657cdc65150000006)
 by [jhoffner](https://www.codewars.com/users/jhoffner)
@@ -444,7 +459,7 @@ def solution(number):
     return sum
 ```
 ###
-Tags: `Algorithms` `Mathematics` `Logic` `Numbers`
+Tags: `Mathematics` `Algorithms`
 <br>
 # [Create Phone Number](https://www.codewars.com/kata/525f50e3b73515a6db000b83)
 by [xDranik](https://www.codewars.com/users/xDranik)
@@ -538,5 +553,5 @@ def create_phone_number(n):
     return f"""({''.join(map(str, n[:3]))}) {''.join(map(str, n[3:6]))}-{''.join(map(str, n[6:]))}"""
 ```
 ###
-Tags: `Algorithms` `Arrays` `Data Types` `Strings` `Loops` `Control Flow` `Basic Language Features` `Fundamentals` `Formatting` `Logic` `Regular Expressions` `Declarative Programming` `Advanced Language Features` `Programming Paradigms`
+Tags: `Arrays` `Strings` `Formatting` `Regular Expressions` `Algorithms`
 <br>

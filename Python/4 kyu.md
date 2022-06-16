@@ -72,7 +72,7 @@ def valid_solution(board):
     return True
 ```
 ###
-Tags: `Algorithms` `Data Structures` `Logic` `Validation`
+Tags: `Data Structures` `Algorithms` `Validation`
 <br>
 # [Human readable duration format](https://www.codewars.com/kata/52742f58faf5485cae000b9a)
 by [davazp](https://www.codewars.com/users/davazp)
@@ -186,5 +186,5 @@ def format_duration(seconds):
         return duration
 ```
 ###
-Tags: `Algorithms` `Formats` `Strings` `Data Types` `Dates/Time` `Formatting` `Logic`
+Tags: `Strings` `Date Time` `Formatting` `Algorithms`
 <br>
