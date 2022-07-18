@@ -93,4 +93,4 @@ Click [here](https://www.codewars.com/users/dvnt) to check out my profile
 - Kyu 9 count: 0
 - Kyu 10 count: 0
 
-Generated using [dvntx's CWDump](https://github.com/dvntx/CWDump)
+Generated using [dv-nt's CWDump](https://github.com/dv-nt/CWDump)
