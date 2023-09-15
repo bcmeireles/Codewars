@@ -1,3 +1,97 @@
+# [Square Every Digit](https://www.codewars.com/kata/546e2562b03326a88e000020)
+by [MysteriousMagenta](https://www.codewars.com/users/MysteriousMagenta)
+## Description
+Welcome. In this kata, you are asked to square every digit of a number and concatenate them.
+
+For example, if we run 9119 through the function, 811181 will come out, because 9<sup>2</sup> is 81 and 1<sup>2</sup> is 1. (81-1-1-81)
+
+Example #2: An input of 765 will/should return 493625 because 7<sup>2</sup> is 49, 6<sup>2</sup> is 36, and 5<sup>2</sup> is 25. (49-36-25)
+
+**Note:** The function accepts an integer and returns an integer.
+
+Happy Coding!
+
+## Solution:
+```python
+def square_digits(num):
+    base = ""
+    for digit in str(num):
+        base += str(int(digit)**2)
+    return int(base)
+```
+###
+Tags: `Mathematics` `Fundamentals`
+<br>
+# [String ends with?](https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d)
+by [jhoffner](https://www.codewars.com/users/jhoffner)
+## Description
+Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string). 
+
+Examples:
+
+```javascript
+solution('abc', 'bc') // returns true
+solution('abc', 'd') // returns false
+```
+```coffeescript
+solution('abc', 'bc') # returns true
+solution('abc', 'd') # returns false
+```
+```python
+solution('abc', 'bc') # returns true
+solution('abc', 'd') # returns false
+```
+```go
+solution("abc", "bc") // returns true
+solution("abc", "d") // returns false
+```
+```prolog
+solution("abc", "bc"). % match
+\+ solution("abc", "d"). % no match
+```
+```clojure
+(solution "abc" "bc") ; returns true
+(solution "abc" "d'" ; returns false
+```
+```lua
+strEndsWith('abc', 'bc') -- returns true
+strEndsWith('abc', 'd') -- returns false
+```
+```cobol
+      StringEndsWith('abc', 'bc')
+      *     -->      result = 1
+      StringEndsWith('abc', 'd')
+      *     -->      result = 0
+```
+```scala
+solution("abc", "bc") // returns true
+solution("abc", "d") //returns false
+```
+## Solution:
+```python
+def solution(text, ending):
+    return text[-len(ending):] == ending
+```
+###
+Tags: `Strings` `Fundamentals`
+<br>
+# [Is this a triangle?](https://www.codewars.com/kata/56606694ec01347ce800001b)
+by [silentZaika](https://www.codewars.com/users/silentZaika)
+## Description
+Implement a function that accepts 3 integer values a, b, c. The function should return true if a triangle can be built with the sides of given length and false in any other case.
+
+(In this case, all triangles must have surface greater than 0 to be accepted).
+
+## Solution:
+```python
+def is_triangle(a, b, c):
+    if a + b > c and a + c > b and b + c > a:
+        return True
+    return False
+```
+###
+Tags: `Mathematics` `Fundamentals`
+<br>
 # [Growth of a Population](https://www.codewars.com/kata/563b662a59afc2b5120000c6)
 by [g964](https://www.codewars.com/users/g964)
 ## Description
@@ -20,7 +114,7 @@ It will need 3 entire years.
 ```
 More generally given parameters:
 
-`p0, percent, aug (inhabitants coming or leaving each year), p (population to surpass)`
+`p0, percent, aug (inhabitants coming or leaving each year), p (population to equal or surpass)`
 
 the function `nb_year` should return `n` number of entire years needed to get a population greater or equal to `p`.
 
@@ -70,14 +164,13 @@ Calculate the sum of the numbers in the n<sup>th</sup> row of this triangle (sta
 2 --> 3 + 5 = 8
 ```
 
-
 ## Solution:
 ```python
 def row_sum_odd_numbers(n):
     return n**3
 ```
 ###
-Tags: `Arrays` `Lists` `Data Structures` `Fundamentals`
+Tags: `Arrays` `Lists` `Mathematics` `Fundamentals`
 <br>
 # [Isograms](https://www.codewars.com/kata/54ba84be607a92aa900000f1)
 by [chunjef](https://www.codewars.com/users/chunjef)
@@ -85,10 +178,21 @@ by [chunjef](https://www.codewars.com/users/chunjef)
 An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
 
 **Example: (Input --> Output)**
-```
+```if-not:factor
 "Dermatoglyphics" --> true
 "aba" --> false
 "moOse" --> false (ignore letter case)
+```
+
+```if:factor
+"Dermatoglyphics" -> t
+"aba" -> f
+"moOse" -> f (ignore letter case)
+```
+```fsharp
+isIsogram "Dermatoglyphics" = true
+isIsogram "moose" = false
+isIsogram "aba" = false
 ```
 
 ## Solution:
@@ -195,6 +299,7 @@ The binary number returned should be a string.
 1, 1 --> "10" (1 + 1 = 2 in decimal or 10 in binary)
 5, 9 --> "1110" (5 + 9 = 14 in decimal or 1110 in binary)
 ```
+
 ## Solution:
 ```python
 def add_binary(a,b):

@@ -165,7 +165,7 @@ def done_or_not(board):
     return "Finished!"
 ```
 ###
-Tags: `Lists` `Data Structures` `Mathematics` `Puzzles`
+Tags: `Mathematics` `Puzzles` `Games` `Game Solvers`
 <br>
 # [Where my anagrams at?](https://www.codewars.com/kata/523a86aa4230ebb5420001e1)
 by [sandbochs](https://www.codewars.com/users/sandbochs)
@@ -192,10 +192,9 @@ anagrams('racer', ['crazer', 'carer', 'racar', 'caers', 'racer']) => ['carer', '
 anagrams('laser', ['lazing', 'lazy',  'lacer']) => []
 ```
 
-**Note for Go**\
-For Go: Empty string slice is expected when there are no anagrams found.
-
-
+```if:go
+Empty string slice is expected when there are no anagrams found.
+```
 ## Solution:
 ```python
 def anagrams(word, words):

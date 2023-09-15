@@ -6,15 +6,31 @@ Click [here](https://www.codewars.com/users/dvnt) to check out my profile
 ![](https://www.codewars.com/users/dvnt/badges/large)
 
 ## Stats
-### Total Kata Completed: 27
+### Total Kata Completed: 46
 
 <br>
 
 ## Python
 - Kyu 1 count: 0
 - Kyu 2 count: 0
-- Kyu 3 count: 0
-- Kyu 4 count: 2
+- Kyu 3 count: 1
+	- [Battleship field validator](Python/3%20kyu.md#battleship-field-validator)
+- Kyu 4 count: 7
+	- [Nesting Structure Comparison
+](Python/4%20kyu.md#nesting-structure-comparison
+)
+	- [Range Extraction
+](Python/4%20kyu.md#range-extraction
+)
+	- [Text align justify
+](Python/4%20kyu.md#text-align-justify
+)
+	- [The observed PIN
+](Python/4%20kyu.md#the-observed-pin
+)
+	- [The Greatest Warrior
+](Python/4%20kyu.md#the-greatest-warrior
+)
 	- [Sudoku Solution Validator
 ](Python/4%20kyu.md#sudoku-solution-validator
 )
@@ -33,7 +49,16 @@ Click [here](https://www.codewars.com/users/dvnt) to check out my profile
 ](Python/5%20kyu.md#where-my-anagrams-at
 )
 	- [Calculating with Functions](Python/5%20kyu.md#calculating-with-functions)
-- Kyu 6 count: 10
+- Kyu 6 count: 13
+	- [Sort the odd
+](Python/6%20kyu.md#sort-the-odd
+)
+	- [Your order, please
+](Python/6%20kyu.md#your-order-please
+)
+	- [Multiplication table
+](Python/6%20kyu.md#multiplication-table
+)
 	- [Bit Counting
 ](Python/6%20kyu.md#bit-counting
 )
@@ -62,7 +87,16 @@ Click [here](https://www.codewars.com/users/dvnt) to check out my profile
 ](Python/6%20kyu.md#multiples-of-3-or-5
 )
 	- [Create Phone Number](Python/6%20kyu.md#create-phone-number)
-- Kyu 7 count: 6
+- Kyu 7 count: 9
+	- [Square Every Digit
+](Python/7%20kyu.md#square-every-digit
+)
+	- [String ends with?
+](Python/7%20kyu.md#string-ends-with
+)
+	- [Is this a triangle?
+](Python/7%20kyu.md#is-this-a-triangle
+)
 	- [Growth of a Population
 ](Python/7%20kyu.md#growth-of-a-population
 )
@@ -79,7 +113,28 @@ Click [here](https://www.codewars.com/users/dvnt) to check out my profile
 ](Python/7%20kyu.md#categorize-new-member
 )
 	- [Binary Addition](Python/7%20kyu.md#binary-addition)
-- Kyu 8 count: 4
+- Kyu 8 count: 11
+	- [Are You Playing Banjo?
+](Python/8%20kyu.md#are-you-playing-banjo
+)
+	- [Convert boolean values to strings 'Yes' or 'No'.
+](Python/8%20kyu.md#convert-boolean-values-to-strings-yes-or-no
+)
+	- [Remove String Spaces
+](Python/8%20kyu.md#remove-string-spaces
+)
+	- [Opposite number
+](Python/8%20kyu.md#opposite-number
+)
+	- [Opposites Attract
+](Python/8%20kyu.md#opposites-attract
+)
+	- [Convert a String to a Number!
+](Python/8%20kyu.md#convert-a-string-to-a-number
+)
+	- [String repeat
+](Python/8%20kyu.md#string-repeat
+)
 	- [Counting sheep...
 ](Python/8%20kyu.md#counting-sheep
 )

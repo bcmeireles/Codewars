@@ -1,3 +1,118 @@
+# [Sort the odd](https://www.codewars.com/kata/578aa45ee9fd15ff4600090d)
+by [fyvfyv](https://www.codewars.com/users/fyvfyv)
+## Description
+## Task
+
+You will be given an array of numbers. You have to sort the odd numbers in ascending order while leaving the even numbers at their original positions.
+
+### Examples
+
+```
+[7, 1]  =>  [1, 7]
+[5, 8, 6, 3, 4]  =>  [3, 8, 6, 5, 4]
+[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]  =>  [1, 8, 3, 6, 5, 4, 7, 2, 9, 0]
+```
+
+~~~if:lambdacalc
+### Encodings
+
+purity: `LetRec`  
+numEncoding: `BinaryScott`  
+export constructors `nil, cons` and deconstructor `foldl` for your `List` encoding  
+~~~
+## Solution:
+```python
+def sort_array(source_array):
+    odds = []
+    odds_index = []
+    for i in range(len(source_array)):
+        if source_array[i] % 2 == 1:
+            odds_index.append(i)
+            odds.append(source_array[i])
+            
+    odds = sorted(odds)
+    
+    for i in range(len(odds)):
+        source_array[odds_index[i]] = odds[i]
+        
+    return source_array
+```
+###
+Tags: `Fundamentals` `Arrays` `Sorting`
+<br>
+# [Your order, please](https://www.codewars.com/kata/55c45be3b2079eccff00010f)
+by [iamstone](https://www.codewars.com/users/iamstone)
+## Description
+Your task is to sort a given string. Each word in the string will contain a single number. This number is the position the word should have in the result.
+
+Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0).
+
+If the input string is empty, return an empty string.
+The words in the input String will only contain valid consecutive numbers.
+
+
+## Examples
+
+```
+"is2 Thi1s T4est 3a"  -->  "Thi1s is2 3a T4est"
+"4of Fo1r pe6ople g3ood th5e the2"  -->  "Fo1r the2 g3ood 4of th5e pe6ople"
+""  -->  ""
+```
+## Solution:
+```python
+def order(sentence):
+    if len(sentence) == 0:
+        return ''
+    sentence = sentence.split(' ')
+    ret = [None] * len(sentence)
+    for word in sentence:
+        for char in word:
+            if char in '123456789':
+                ret[int(char) - 1] = word  
+    return ' '.join(ret)
+```
+###
+Tags: `Strings` `Fundamentals`
+<br>
+# [Multiplication table](https://www.codewars.com/kata/534d2f5b5371ecf8d2000a08)
+by [Bugari](https://www.codewars.com/users/Bugari)
+## Description
+Your task, is to create N×N multiplication table, of size provided in parameter.
+
+For example, when given `size` is 3:
+```
+1 2 3
+2 4 6
+3 6 9
+```
+
+For the given example, the return value should be: 
+
+```js
+[[1,2,3],[2,4,6],[3,6,9]]
+```
+```julia
+[1 2 3; 2 4 6; 3 6 9]
+```
+
+```if:c
+Note: in C, you must return an allocated table of allocated rows
+```
+
+## Solution:
+```python
+def multiplication_table(size):
+    ret = []
+    for i in range(1, size + 1): # row
+        row = []
+        for j in range(1, size + 1): # col
+            row.append(i * j)
+        ret.append(row)
+    return ret
+```
+###
+Tags: `Arrays` `Fundamentals`
+<br>
 # [Bit Counting](https://www.codewars.com/kata/526571aae218b8ee490006f4)
 by [xcthulhu](https://www.codewars.com/users/xcthulhu)
 ## Description
@@ -19,6 +134,8 @@ by [PG1](https://www.codewars.com/users/PG1)
 Given a string of words, you need to find the highest scoring word.
 
 Each letter of a word scores points according to its position in the alphabet: `a = 1, b = 2, c = 3` etc.
+
+For example, the score of `abad` is `8` (1 + 2 + 1 + 4).
 
 You need to return the highest scoring word as a string.
 
@@ -152,7 +269,7 @@ def solution(s):
     return final
 ```
 ###
-Tags: `Strings` `Formatting` `Fundamentals`
+Tags: `Strings` `Fundamentals`
 <br>
 # [Find the unique number](https://www.codewars.com/kata/585d7d5adb20cf33cb000235)
 by [isqua](https://www.codewars.com/users/isqua)
@@ -194,7 +311,30 @@ findUniq([ 1; 1; 1; 2; 1; 1 ]) = 2
 findUniq([ 0; 0; 0.55; 0; 0 ]) = 0.55
 ```
 
-It�s guaranteed that array contains at least 3 numbers.
+```c
+finduniq((const float[]){1, 1, 1, 2, 1, 1}, 5); /* --> 2 */
+finduniq((const float[]){0, 0, 0.55, 0, 0}, 5); /* --> 0.55 */
+```
+```nasm
+nums:  dd  1., 1., 1., 2., 1., 1.
+
+mov rdi, nums
+mov rsi, 6
+call finduniq       ; XMM0 <- 2
+
+
+nums:   dd  0., 0., 0.55, 0., 0.
+
+mov rdi, nums
+mov rsi, 6
+call finduniq       ; XMM0 <- 0.55
+```
+```cpp
+find_uniq(std::vector<float>{1, 1, 1, 2, 1, 1});  // --> 2
+find_uniq(std::vector<float>{0, 0, 0.55, 0, 0});  // --> 0.55
+```
+
+It’s guaranteed that array contains at least 3 numbers.
 
 The tests contain some very huge arrays, so think about performance.
 
@@ -289,7 +429,7 @@ def likes(names):
         return f"{names[0]}, {names[1]} and {len(names) - 2} others like this"
 ```
 ###
-Tags: `Formatting` `Strings` `Fundamentals`
+Tags: `Strings` `Fundamentals`
 <br>
 # [Array.diff](https://www.codewars.com/kata/523f5d21c841566fde000009)
 by [marcinbunsch](https://www.codewars.com/users/marcinbunsch)
@@ -431,7 +571,7 @@ def array_diff(a, b):
     return c
 ```
 ###
-Tags: `Arrays` `Fundamentals`
+Tags: `Arrays` `Fundamentals` `Algorithms`
 <br>
 # [Multiples of 3 or 5](https://www.codewars.com/kata/514b92a657cdc65150000006)
 by [jhoffner](https://www.codewars.com/users/jhoffner)
@@ -439,7 +579,10 @@ by [jhoffner](https://www.codewars.com/users/jhoffner)
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
 Finish the solution so that it returns the sum of all the multiples of 3 or 5 **below** the number passed in. 
-Additionally, if the number is negative, return 0 (for languages that do have them).
+
+~~~if:c,cobol,commonlisp,cpp,csharp,dart,elixir,factor,fsharp,javascript,julia,kotlin,lua,nasm,php,prolog,python,raqcket,ruby,rust,shell,swift,typescript
+Additionally, if the number is negative, return 0.
+~~~
 
 **Note:** If the number is a multiple of **both** 3 and 5, only count it *once*.
   
@@ -543,8 +686,12 @@ createPhoneNumber( [1, 2, 3, 4, 5, 6, 7, 8, 9, 0] ) // => returns "(123) 456-789
 ```factor
 { 1 2 3 4 5 6 7 8 9 0 } create-phone-number ! returns "(123) 456-7890"
 ```
+```lua
+create_phone_number({ 1,2,3,4,5,6,7,8,9,0 }) -- => returns "(123) 456-7890"
+```
 
-The returned format must be correct in order to complete this challenge.  
+The returned format must be correct in order to complete this challenge.
+
 Don't forget the space after the closing parentheses!
 
 ## Solution:
@@ -553,5 +700,5 @@ def create_phone_number(n):
     return f"""({''.join(map(str, n[:3]))}) {''.join(map(str, n[3:6]))}-{''.join(map(str, n[6:]))}"""
 ```
 ###
-Tags: `Arrays` `Strings` `Formatting` `Regular Expressions` `Algorithms`
+Tags: `Arrays` `Strings` `Regular Expressions` `Algorithms`
 <br>
