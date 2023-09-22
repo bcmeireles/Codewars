@@ -15,6 +15,7 @@ Before the game begins, players set up the board and place the ships accordingly
 </ul>
 This is all you need to solve this kata. If you're interested in more information about the game, visit <a href="http://en.wikipedia.org/wiki/Battleship_(game)">this link</a>.
 ## Solution:
+
 ```python
 surroundings = [(-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1)]
 
